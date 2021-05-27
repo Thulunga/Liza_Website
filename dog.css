@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(225, 229, 230);
+}
+.header{
+    text-align: center;
+}
+.dogbody{
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.ximage{
+    width: 60%;
+    border-radius: 10px;
+    border: 2px solid rgb(83, 32, 2);
+    box-shadow: 2px 5px 10px 0px rgb(83, 32, 2);
+  }
+
+  .details{
+      margin-left: 20px;
+      padding: 20px;
+      border: 2px solid green;
+      border-radius: 15px;
+      box-shadow: 2px 5px 10px 0px green;
+
+  }
+  
+#name{
+    color: rgb(133, 66, 66);
+}
+
+h1{
+    color: rgb(81, 139, 206);
+}
+
+.ldetails{
+    margin-left: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px 0px green;
+    background-color: antiquewhite;
+
+}
+.liza{
+    background-image: url(/lizaback.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+  @media only screen and (max-width: 800px) {
+    .dogbody{
+        display: block;
+        text-align: center;
+    }
+    .ximage{
+        width: 90%;
+        margin-bottom: 15px;
+      }
+      h1{
+          padding: 5px;
+          font-size: 20px;
+      }
+      p{
+          font-size: 10px;
+      }
+      h2{
+          font-size: 18px;
+      }
+      h3{
+          font-size: 16px;
+      }
+      .details{
+        text-align: left;
+      margin: 10px;
+      padding: 20px;
+      border: 2px solid green;
+      border-radius: 15px;
+      box-shadow: 2px 5px 10px 0px green;
+  }
+  .ldetails{
+    text-align: left;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid vlack;
+  border-radius: 50px;
+  box-shadow: 2px 5px 10px 0px black;
+}
+  }
+  
